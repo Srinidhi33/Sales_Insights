@@ -5,4 +5,4 @@ mycursor = mydb.cursor()
 mycursor.execute("SELECT * FROM markets")
 myresult = mycursor.fetchall()
 markets_data = pd.DataFrame(myresult)
-print(markets_data.shape)
+print(markets_data.shape
